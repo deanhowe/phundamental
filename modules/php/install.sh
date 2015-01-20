@@ -117,6 +117,7 @@ ph_install_packages\
     gcc\
     gettext\
     libjpeg\
+    libpng\
     libtool\
     libxml\
     libxsl\
