@@ -238,10 +238,10 @@ CONFIGURE_ARGS=("--prefix=${PHP_PREFIX}"
     "--with-regex=system"
     "--with-zlib");
 
-if [ "${PH_OS}" != "windows" ]; then
-    CONFIGURE_ARGS=(${CONFIGURE_ARGS[@]}
-        "--with-ldap")
-fi
+#if [ "${PH_OS}" != "windows" ]; then
+#    CONFIGURE_ARGS=(${CONFIGURE_ARGS[@]}
+#        "--with-ldap")
+#fi
 
 if [ "${PH_OS}" == "mac" ]; then
     CONFIGURE_ARGS=(${CONFIGURE_ARGS[@]}
