@@ -16,8 +16,12 @@
 # PHP-FPM init script location:                                               #
 # /etc/init.d/php-<version>-fpm                                               #
 #                                                                             #
-# PHP-FPM will listen on:                                                     #
-# 127.0.0.1:9<version>  e.g. 127.0.0.1:9547 for PHP 5.4.7                     #
+# ~~PHP-FPM will listen on:~~                                                 #
+# ~~127.0.0.1:9<version>  e.g. 127.0.0.1:9547 for PHP 5.4.7~~                 #
+#                                                                             #
+# PHP-FPM will create a socket:                                               #
+# /var/run/php-fpm/php-<version>-fpm.sock                                     #
+#               e.g. /var/run/php-fpm/php-5.5.14-fpm.sock for PHP 5.5.14      #
 #                                                                             #
 ###############################################################################
 
