@@ -240,7 +240,8 @@ CONFIGURE_ARGS=("--prefix=${PHP_PREFIX}"
     "--with-mhash"
     "--with-openssl"
     "--with-regex=system"
-    "--with-zlib");
+    "--with-zlib"
+    "--with-readline");
 
 #if [ "${PH_OS}" != "windows" ]; then
 #    CONFIGURE_ARGS=(${CONFIGURE_ARGS[@]}
