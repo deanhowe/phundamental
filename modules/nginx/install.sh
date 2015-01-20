@@ -234,7 +234,7 @@ function ph_module_install_nginx()
                 "##NGINX_PREFIX##" "${NGINX_PREFIX}"
 
             /etc/init.d/nginx-${NGINX_VERSION_STRING} start
-            update-rc.d nginx-${NGINX_VERSION_STRING} defaults
+            #update-rc.d nginx-${NGINX_VERSION_STRING} defaults
             ;;
         esac
         ;;
