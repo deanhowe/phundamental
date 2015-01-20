@@ -134,6 +134,7 @@ ph_install_packages\
     png\
     re2c\
     wget\
+    readline\
     zlib
 
 if [ "${PH_OS}" == "windows" ]; then
