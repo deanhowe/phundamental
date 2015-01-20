@@ -582,7 +582,7 @@ case "${PH_OS}" in \
         ph_search_and_replace "##PHP_VERSION_STRING##" "${PHP_VERSION_STRING}" /etc/init.d/php-${PHP_VERSION_STRING}-fpm
 
         /etc/init.d/php-${PHP_VERSION_STRING}-fpm start
-        update-rc.d php-${PHP_VERSION_STRING}-fpm defaults
+        #update-rc.d php-${PHP_VERSION_STRING}-fpm defaults
 
         if ph_is_installed nginx; then
             nginx -s reload
